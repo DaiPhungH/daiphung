@@ -17,7 +17,7 @@ public class alo {
         System.out.print("Nhập năm: ");
         int year = nhap.nextInt();
 
-        System.out.printf("Ngày tháng năm: %02d/%02d/%02d%n", day, month, year);
+        System.out.printf("Ngày tháng năm: %d/%d/%d", day, month, year);
 
         nhap.close();
     }
